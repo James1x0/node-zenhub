@@ -92,4 +92,10 @@ describe('ZenHub ReleaseReport Read API', () => {
             await api.releaseReports.getReleaseReportsForRepository(config.repoId);
         });
     });
+    
+    describe('get ReleaseReportIssues test', () => {
+        it('should get ReleaseReportIssues', async () => {
+            await api.releaseReports.getReleaseReportIssues(config.releaseId);
+        });
+    });
 });
