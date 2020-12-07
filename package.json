@@ -1,6 +1,6 @@
 {
   "name": "zenhub-client",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ZenHub API wrapper",
   "author": "James1x0",
   "license": "MIT",
